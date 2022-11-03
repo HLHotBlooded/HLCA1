@@ -20,7 +20,7 @@
                 }
             ],
             "outArguments": [],
-            "url": "https://mcm-sms-test.herokuapp.com/journeybuilder/execute",
+            "url": "https://hlca1.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -28,30 +28,30 @@
         }
     },
     "configurationArguments": {
-        "applicationExtensionKey": "462a9654-a908-4fe4-b704-32772e4b62e3",
+        "applicationExtensionKey": "1e926777-6726-4114-b75b-de6cc0cf7dde",
         "save": {
-            "url": "https://mcm-sms-test.herokuapp.com/journeybuilder/save",
+            "url": "https://hlca1.herokuapp.com/journeybuilder/save",
             "verb": "POST",
             "body": "",
             "format": "json",
             "useJwt": false
         },
         "publish": {
-            "url": "https://mcm-sms-test.herokuapp.com/journeybuilder/publish",
+            "url": "https://hlca1.herokuapp.com/journeybuilder/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
             "useJwt": false
         },
         "validate": {
-            "url": "https://mcm-sms-test.herokuapp.com/journeybuilder/validate",
+            "url": "https://hlca1.herokuapp.com/journeybuilder/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
             "useJwt": false
         },
         "stop": {
-            "url": "https://mcm-sms-test.herokuapp.com/journeybuilder/stop",
+            "url": "https://hlca1.herokuapp.com/journeybuilder/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -74,7 +74,7 @@
     "userInterfaces": {
         "configModal": {
             "height": 400,
-            "width": 700,
+            "width": 1000,
             "fullscreen": false
         }
     },
