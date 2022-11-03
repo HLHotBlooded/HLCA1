@@ -12,10 +12,13 @@ var activity    = require('./routes/activity');
 
 var app = express();
 
+
+app.use(bodyParser.urlencoded({ extended: false }));
+
 // Configure Express
 app.set('port', process.env.PORT || 3000);
-app.use(bodyParser.raw({type: 'application/jwt'}));
-//app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json({type: 'application/json'})); 
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //app.use(express.methodOverride());
 //app.use(express.favicon());
@@ -32,11 +35,13 @@ app.get('/', routes.index );
 app.post('/login', routes.login );
 app.post('/logout', routes.logout );
 
+
 // Custom Hello World Activity Routes
 app.post('/journeybuilder/save/', activity.save );
 app.post('/journeybuilder/validate/', activity.validate );
 app.post('/journeybuilder/publish/', activity.publish );
 app.post('/journeybuilder/execute/', activity.execute );
+//app.post('/journeybuilder/message/', activity.message );
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

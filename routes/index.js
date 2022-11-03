@@ -1,5 +1,11 @@
 'use strict';
 
+//Twilo Message Code
+
+
+//End Twilo Message Code
+
+
 // Deps
 var activity = require('./activity');
 
@@ -21,7 +27,7 @@ exports.index = function(req, res){
 };
 
 exports.login = function( req, res ) {
-    console.log( 'req.body: ', req.body );
+    console.log( 'req.body: ', req.body ); 
     res.redirect( '/' );
 };
 

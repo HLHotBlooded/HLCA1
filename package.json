@@ -1,5 +1,5 @@
 {
-  "name": "jb-activity-template",
+  "name": "twilio-journey-builder-example",
   "version": "1.0.0",
   "description": "Journey Builder Activity Template",
   "engines": {
@@ -10,27 +10,45 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devsutd/journey-builder-activity-template.git"
+    "url": "git+https://github.com/jmaitz/twilio-sfmc.git"
   },
   "keywords": [
+    "twilio",
+    "twilio salesforce marketing cloud",
     "journey",
     "builder",
     "salesforce marketing cloud",
     "heroku"
   ],
-  "author": "Devs United",
-  "license": "ISC",
+  "author": "John Maitz",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/devsutd/journey-builder-activity-template/issues"
+    "url": "https://github.com/jmaitz/twilio-sfmc/issues"
   },
-  "homepage": "https://github.com/devsutd/journey-builder-activity-template#readme",
+  "homepage": "https://github.com/jmaitz/twilio-sfmc#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
     "bower": "^1.8.0",
+    "circular-json": "^0.5.9",
+    "crypto-js": "^4.1.1",
+    "dom-parser": "^0.1.6",
     "errorhandler": "^1.5.0",
-    "express": "^4.15.4",
+    "express": "^4.17.1",
+    "fuel-auth": "^3.3.0",
+    "fuel-rest": "^3.2.2",
+    "javascript-stringify": "^2.1.0",
     "jsonwebtoken": "^8.0.1",
-    "request": "^2.81.0",
-    "require": "^2.4.20"
+    "lodash": "^4.17.21",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "simple-xml2json": "^1.2.3",
+    "twilio": "^3.36.0",
+    "uglify-js": "^3.6.4",
+    "url": "^0.11.0",
+    "winston": "^3.3.3",
+    "xml-parse-from-string": "^1.0.1",
+    "xml2js": "^0.4.23"
   }
 }
